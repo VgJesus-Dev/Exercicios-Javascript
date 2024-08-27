@@ -30,9 +30,17 @@ const data = new Date();
 const dia = data.getDay();
 console.log(`${data}`)
 //Crie um programa que calcule a área de um retângulo, solicitando a base e a altura ao usuário. Exiba o resultado utilizando interpolação
-
+const base = 5;
+const altura = 8;
+const area = (base*altura)/2;
+console.log(`A área do triângulo de base ${base} e altura ${altura} é ${area}.`)
 //Crie uma condicional para verificar se o caractere é uma vogal
-
+const letra = "f";
+if (letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u"){
+    console.log(`A letra '${letra}' é uma vogal.`)
+} else {
+    console.log(`A letra '${letra}' não é uma vogal.`)
+}
 //Crie uma condicional para verificar se o número é par ou é impar
 
 //Crie uma condicional if else if else para verificar se um triângulo é equilátero, isósceles ou escaleno:
